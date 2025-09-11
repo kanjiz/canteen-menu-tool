@@ -1,0 +1,11 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Python files
+*.py text eol=lf
+
+# Markdown
+*.md text eol=lf
+
+# Jupyter Notebooks
+*.ipynb text eol=lf
