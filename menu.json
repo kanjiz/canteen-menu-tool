@@ -1,0 +1,208 @@
+{
+  "week_start": "2025-09-11",
+  "meals": [
+    {
+      "date": "2025-09-11",
+      "breakfast": {
+        "menu": "",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "location": "寮食堂"
+      },
+      "lunch": {
+        "A": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        },
+        "B": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        }
+      },
+      "dinner": {
+        "menu": "",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "location": "寮食堂"
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "breakfast": {
+        "menu": "",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "location": "寮食堂"
+      },
+      "lunch": {
+        "A": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        },
+        "B": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        }
+      },
+      "dinner": {
+        "menu": "",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "location": "寮食堂"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "breakfast": {
+        "menu": "",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "location": "寮食堂"
+      },
+      "lunch": {
+        "A": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        },
+        "B": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        }
+      },
+      "dinner": {
+        "menu": "",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "location": "寮食堂"
+      }
+    },
+    {
+      "date": "2025-09-14",
+      "breakfast": {
+        "menu": "",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "location": "寮食堂"
+      },
+      "lunch": {
+        "A": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        },
+        "B": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        }
+      },
+      "dinner": {
+        "menu": "",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "location": "寮食堂"
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "breakfast": {
+        "menu": "",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "location": "寮食堂"
+      },
+      "lunch": {
+        "A": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        },
+        "B": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        }
+      },
+      "dinner": {
+        "menu": "",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "location": "寮食堂"
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "breakfast": {
+        "menu": "",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "location": "寮食堂"
+      },
+      "lunch": {
+        "A": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        },
+        "B": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        }
+      },
+      "dinner": {
+        "menu": "",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "location": "寮食堂"
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "breakfast": {
+        "menu": "",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "location": "寮食堂"
+      },
+      "lunch": {
+        "A": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        },
+        "B": {
+          "menu": "",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "location": "寮食堂"
+        }
+      },
+      "dinner": {
+        "menu": "",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "location": "寮食堂"
+      }
+    }
+  ]
+}
