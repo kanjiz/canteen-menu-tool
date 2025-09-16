@@ -114,7 +114,7 @@ uv run pyinstaller main.py --onefile --windowed --name canteen-menu-tool
 
 ### システム要件
 
-- **Python**: 3.9以上
+- **Python**: 3.12以上
 - **OS**: Windows, macOS, Linux
 - **GUI**: Tkinter (python-tk)
 

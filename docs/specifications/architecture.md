@@ -30,7 +30,7 @@
 ### アプリケーション層
 
 - **GUI Framework**: TkEasyGUI (Tkinterラッパー)
-- **Language**: Python 3.9+
+- **Language**: Python 3.12+
 - **Package Manager**: uv
 
 ### データ層
