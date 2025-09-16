@@ -82,7 +82,7 @@ main()
 
 ### 実行環境
 
-- **Python**: 3.9以上
+- **Python**: 3.12以上
 - **OS**: Windows, macOS, Linux
 - **GUI**: Tkinter (python-tk)
 
@@ -91,17 +91,21 @@ main()
 ```toml
 [project]
 dependencies = [
-    "TkEasyGUI>=1.0.38"
+    "tkeasygui>=1.0.38"
 ]
 
-[tool.uv.dev-dependencies]
-pyinstaller = "*"  # EXE化用
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.15.0",
+    "pytest>=8.0"
+]
 ```
 
 ### パッケージング
 
 - **開発**: uvによる仮想環境管理
 - **配布**: PyInstallerによるEXE化
+- **テスト**: pytestによるTDD実装
 
 ## 配布戦略
 
@@ -110,6 +114,7 @@ pyinstaller = "*"  # EXE化用
 ```bash
 uv sync                # 依存関係インストール
 uv run main.py         # アプリケーション実行
+uv run pytest         # テスト実行（TDD）
 ```
 
 ### エンドユーザー向け（施設職員）
@@ -194,18 +199,25 @@ uv run pyinstaller main.py --onefile --windowed --name canteen-menu-tool
 
 ## 品質保証
 
-### テスト戦略（将来実装）
+### テスト戦略
 
-- **単体テスト**:
-  - 月曜日バリデーション機能
-  - JSON構造化処理
-  - 改行文字の保持・変換
-  - 空オブジェクト生成機能
-- **統合テスト**: GUI操作からファイル出力まで
-- **UI/UXテスト**:
-  - 業者データのコピー&ペースト操作
-  - 複数行入力の使いやすさ検証
-  - 長期休暇期間の入力操作
+テスト駆動開発（TDD）による品質保証を実施しています。詳細なテスト戦略、実行方法、TDD実践ガイドについては、専用ドキュメントを参照してください：
+
+📋 **[テスト仕様書 (testing.md)](./testing.md)**
+
+#### 概要
+
+- **TDD手法**: t-wada流テスト駆動開発
+- **テストフレームワーク**: pytest>=8.0
+- **カバレッジ目標**: 既存機能100%、新機能95%以上
+- **実行環境**: Python 3.12+ + uv
+
+**クイック実行**:
+
+```bash
+uv run pytest         # 全テスト実行
+uv run pytest -v      # 詳細表示
+```
 
 ### 監視・ログ
 
@@ -223,6 +235,7 @@ uv run pyinstaller main.py --onefile --windowed --name canteen-menu-tool
 
 | バージョン | 日付 | 変更内容 |
 |-----------|------|----------|
+| **1.2.0** | 2025-09-16 | **TDD導入フェーズ**<br>• pytest依存関係追加<br>• t-wada流テスト駆動開発導入<br>• 回帰テスト・単体テスト戦略確立<br>• 複数行入力対応（TDD実装予定） |
 | 1.1.0 | 2025-09-11 | 長期休暇・寮閉鎖対応<br>空の食事データ（空オブジェクト）サポート |
 | 1.0.0 | 2025-09-11 | 初期リリース（TkEasyGUI版）<br>職業訓練施設寮向け献立データ作成ツール |
 | 0.1.0 | - | プロトタイプ（Tkinter版） |

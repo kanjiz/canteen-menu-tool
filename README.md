@@ -27,7 +27,7 @@
 
 ### 必要な環境
 
-- Python 3.9以上
+- Python 3.12以上
 - tkinter (通常はPythonに同梱、macOSでは `brew install python-tk`)
 
 ### インストール
@@ -46,6 +46,9 @@ uv sync
 ```bash
 # アプリケーションの起動
 uv run main.py
+
+# 開発者向け: テスト実行
+uv run pytest
 ```
 
 ### 基本的な操作手順
@@ -129,6 +132,7 @@ uv run pyinstaller main.py --onefile --windowed --name canteen-menu-tool
 
 | バージョン | 日付 | 変更内容 |
 |-----------|------|----------|
+| **1.2.0** | 2025-09-16 | **TDD導入・品質向上**<br>• テスト駆動開発（TDD）導入<br>• pytest環境構築<br>• 複数行入力対応準備 |
 | **1.1.0** | 2025-09-11 | 長期休暇・寮閉鎖対応 |
 | **1.0.0** | 2025-09-11 | 初期リリース（TkEasyGUI版） |
 
@@ -138,6 +142,11 @@ uv run pyinstaller main.py --onefile --windowed --name canteen-menu-tool
 
 - **技術仕様**: [`docs/specifications/`](./docs/specifications/)
 - **アーキテクチャ**: [`docs/specifications/architecture.md`](./docs/specifications/architecture.md)
+- **テスト・品質保証**: [`docs/specifications/testing.md`](./docs/specifications/testing.md)
+
+### 開発者向け情報
+
+このプロジェクトはテスト駆動開発（TDD）を採用しています。新機能の開発や既存機能の改修時は、テスト仕様書を参照してください。
 
 ## 📞 サポート
 
